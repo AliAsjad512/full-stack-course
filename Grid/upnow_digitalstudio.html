@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width:100vw;
+            height:100vh;
+            background-color: black;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(4,1fr);
+            gap:10px;
+            padding-inline: 50px;
+        }
+   .container div{
+  
+    border-radius: 8px;
+   }
+
+   .box1,.box4,.box5,.box6{
+    grid-row:span 2 ;
+
+   }
+  .box1,.box5,.box9{
+    background-color: #fedcdc;
+  }
+
+  .box2,.box3,.box4,.box6,.box7,.box8{
+    background-color: #fff4f3;
+  }
+
+   .box5,.box9{
+    grid-column: span 2;
+   }
+
+   .box1 img{
+    height: 150px;
+    width: 150px;
+
+   }
+   .box1,.box4,.box7{
+    
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+   }
+   .box2{
+    display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 30px;
+  position: relative;
+  gap: 10px;
+   }
+   .fa-heart{
+    position: absolute;
+    left: 200px;
+    top: 40px;
+   }
+
+   .box3{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-end;
+    padding-top: 30px ;
+    padding-right: 20px;
+    gap: 10px;
+
+   }
+   .box3 p{
+    font-weight: 400;
+   }
+   .box3 h1{
+    font-size: 3rem;
+   }
+   .box3 h4{
+    color: #2bb82f;
+
+   }
+
+
+   .box4{
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    padding-left: 30px;
+   }
+   .box4 h4{
+    color: #ff8275;
+   }
+   .box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+   }
+   .box5 img{
+    position: absolute;
+  top:-90px;
+   }
+
+   .box6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    gap: 40px;
+    position: relative;
+   }
+
+   .box6 img{
+    height: 100%;
+    width: 50%;
+    border-radius: 40%;
+   }
+   .img1,.img2{
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+
+   }
+   .img1{
+    
+    
+
+   }
+   .img2{
+    position:absolute;
+    left:110px;
+    top:120px;
+   }
+
+   .box8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    gap: 15px;
+    
+   }
+   .pillow{
+    display: flex;
+    gap:10px;
+   }
+   .pillow1,.pillow2,.pillow3,.pillow4{
+    border-radius: 5px;
+    height: 25px;
+    width: 35px;
+   }
+   .pillow1{
+    background-color: #2bb82f;
+   }
+   .pillow2{
+    background-color:yellow;
+   }
+   .pillow3{
+    background-color: #fedcdc;
+   }
+   .pillow4{
+    background-color: black;
+   }
+   .box9{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 20px;
+    position: relative;
+    justify-content: center;
+   }
+   .box9 img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 600px;
+   }
+
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+<div class="box1">
+  
+   <h4>First Round of <br>funding</h4> 
+  
+  <div class="img">
+    <img src="https://cdn-icons-png.flaticon.com/512/5696/5696307.png" alt="">
+  </div>
+    
+    <h1>2.5K</h1>
+    
+      <p>
+        263 Contribution in <br> the last year
+      </p>
+    
+
+
+
+</div>
+<div class="box2">
+  <h1>4.875</h1>
+  <!-- <i class="fa-solid fa-heart"></i> -->
+  <p>Project Views last year</p>
+
+</div>
+<div class="box3">
+  <p>New Users</p>
+  <h1>57K</h1>
+  <h4>+10%</h4>
+</div>
+<div class="box4">
+<h3>Team of passionate designer and developers</h3>
+
+<div class="profile">
+  <img src="./images/webflow-avtar.png" alt="" width="150px">
+</div>
+<h3>Daily</h3>
+<h3>New clients</h3>
+<h1>54</h1>
+<h4>+40%</h4>
+
+
+</div>
+<div class="box5">
+  <img src="https://billingprobe.com/assets/MunshiJi/images/img-11.png" alt="" height="430px">
+</div>
+<div class="box6">
+  <div class="smart">
+<h2>Smart Digital Agency For Your Business</h2>
+<div class="img1">
+  <img src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMjkxNzQxNi9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTc4NzAxNTY5Mn0.-nGEOOwvsKvI0VrA4kX7NGTiZ2veG_ZEdYJTk3AlD0o/img.jpg?width=1200&height=800&quality=85&coordinates=0%2C0%2C0%2C0" alt="">
+</div>
+<div class="img2">
+  <img src="https://cdn.prod.website-files.com/606b1a109c3b857f6d84ad01/60b8ffdd61f21cb2be467f24_Man%20Outdoors%20Tab%20Vid%20Call750%20px.jpg" alt="">
+</div>
+
+  </div>
+</div>
+<div class="box7">
+<img src="./images/cobu.PNG" alt="">
+<h1>CUBO</h1>
+
+</div>
+<div class="box8">
+<h1>Font</h1>
+<h4>Sk-Modernist</h4>
+<div class="pillow">
+  <div class="pillow1"></div>
+  <div class="pillow2"></div>
+  <div class="pillow3"></div>
+  <div class="pillow4"></div>
+</div>
+
+</div>
+<div class="box9">
+  <h1>We Build Future of Design Industry</h1>
+  <img src="./images/flower.PNG" alt="">
+  <p>crafting Meaning UI/UX Design</p>
+</div>
+
+
+</div>
+
+    
+</body>
+</html>
