@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.section{
+    width: 100%;
+    padding-block: 5w;
+
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    padding-inline: 5vw;
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    position: relative;
+}
+.wrapper::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="section">
+            <div class="wrapper">
+                <h2>Heading</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate rem eius nihil harum qui laboriosam, officia praesentium sequi error sapiente quia incidunt magnam vitae laudantium tempore reprehenderit ex est mollitia.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
