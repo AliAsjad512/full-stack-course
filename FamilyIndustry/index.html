@@ -8,17 +8,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
+      
         .middle div:hover {
             background-color: #9CD67F;
             transition: all 0.3s;
             padding: 8px 16px; /* Equivalent to px-4 py-2 */
             border-radius: 5px;
         }
+
+        .heading:before{
+            background-color: #efece6;
+            content: "";
+            height: 100%;
+        transition: opacity.6s;
+        width: 100%;
+
+        }
     </style>
     
 </head>
 <body class="bg-black">
-    <div class="main">
+    <div class="main bg-[#1E1E1E] w-full text-white overflw-hidden">
    <div class="navbar flex justify-between items-center  px-[10px] pt-[30px]  text-white md:px-[50px]">
    <div class="left">
 <img src="https://familyindustrieslive.com/wp-content/themes/family-industries/img/logo@1x.png" alt="">
@@ -41,14 +51,49 @@
 
 
 
-  <div class="container">
+  <!-- <div class="section1 p-20 mt-[30px] width-[100%] h-100 "> -->
+
+    <div class="hero-layout flex  flex-col  justify-between gap-10 w-[100%]  relative mt-10  pl-20  sm:items-start sm:px-2 md:px-5 md:flex-row ">
+    
+        <div class="hero-content text-white flex flex-col  gap-[40px] h-full md:items-start md:text-left  ">
+
+         <h1 class="md:text-[110px] font-[900] leading-[0.8] text-[40px] text-center md:text-start">MERCH REDEFIND</h1>
+
+         <p class="mb-0 text-[hsla(40,20%,92%,.6)] leading-[1.6] text-[20px] max-w-[520px]">Our on-site merch customization experinces <br>transform your event attendees into artists,<br> creators, and product designers.</p>
+           <div class="button flex justify-center md:justify-start gap-4 ">
+            <button class="text-black font-medium bg-[#a9ff5c]  rounded-[15px] text-[20px] p-5">Get Started </button>
+            <button class="text-black font-medium bg-[#a9ff5c]  rounded-[15px] text-[20px] p-5">Experience generator</button>
+           </div>
+
+        </div>
 
 
 
+        <div class="hero-media  ml-100 ">
+            <div class="home-intro-video ">
 
+
+                <video class=""  autoplay muted loop>
+                    <source src="https://familyindustrieslive.com/wp-content/uploads/2023/06/hero-gifs-6-1.webm" type="video/mp4">
+                    
+                  </video>
+                  
+            </div>
+
+
+        </div>
+
+
+    </div>
 
     
-  </div>
+
+
+
+
+
+
+  <!-- </div> -->
 
 
 
