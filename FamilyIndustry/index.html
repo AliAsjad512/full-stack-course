@@ -24,6 +24,56 @@
         width: 100%;
 
         }
+        
+        @keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-container {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+  min-width: 480%; /* Ensures continuous loop */
+}
+
+/* @keyframes slideRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.loopcontent {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+
+  gap: 0.25rem; /* Adjust the gap as needed */
+  //animation: slideRight 20s linear infinite;
+} */
+
+/* Responsive gap for larger screens */
+/* @media (min-width: 768px) {
+  .loopcontent {
+    gap: 20px;
+  }
+} */
+
+
     </style>
     
 </head>
@@ -109,6 +159,146 @@
 </div>
 
 
+<div class="overflow-hidden whitespace-nowrap  pt-[100px]  section3">
+    <div class="marquee-container flex">
+      <div class="marquee flex space-x-10">
+        <!-- Duplicate the list to create an infinite scrolling effect -->
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/apple.svg" alt="Apple" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/nike.svg" alt="Nike" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/levis.svg" alt="Levis" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/hulu.svg" alt="Hulu" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/instagram.svg" alt="Instagram" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/ford.svg" alt="Ford" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/toyota.svg" alt="Toyota" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/spotify.svg" alt="Spotify" class="h-16"></div>
+  
+        <!-- Duplicate items for seamless animation -->
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/apple.svg" alt="Apple" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/nike.svg" alt="Nike" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/levis.svg" alt="Levis" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/hulu.svg" alt="Hulu" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/instagram.svg" alt="Instagram" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/ford.svg" alt="Ford" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/toyota.svg" alt="Toyota" class="h-16"></div>
+        <div class="item"><img src="https://familyindustrieslive.com/wp-content/uploads/2023/03/spotify.svg" alt="Spotify" class="h-16"></div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+
+
+  <div class="section4  w-full overflow-hidden pt-[50px] pb-[15px] h-[150px] lg:h-[300px]">
+    
+        <div class="loopcontent flex flex-rows gap-2 md:gap:[10px] lg:gap-[10px] ">
+            
+
+             <div class=" w-64 h-64 bg-cover bg-center" style="background-image: url('https://familyindustrieslive.com/wp-content/uploads/2023/03/mini-case-1-thumb@2x-1.png');
+             mask-image: url('https://tailwind-task-website.vercel.app/resources/Rectangle-curve.svg'); mask-repeat: no-repeat;">
+            </div>
+            
+            <div class=" w-64 h-64 bg-cover bg-center" style="background-image: url('https://familyindustrieslive.com/wp-content/uploads/2023/03/mini-case-1-thumb@2x-1.png');
+            mask-image: url('https://tailwind-task-website.vercel.app/resources/Rectangle-curve.svg'); mask-repeat: no-repeat;">
+           </div>
+           
+           <div class=" w-64 h-64 bg-cover bg-center" style="background-image: url('https://familyindustrieslive.com/wp-content/uploads/2023/03/mini-case-1-thumb@2x-1.png');
+           mask-image: url('https://tailwind-task-website.vercel.app/resources/Rectangle-curve.svg'); mask-repeat: no-repeat;">
+          </div>
+          
+          <div class=" w-64 h-64 bg-cover bg-center" style="background-image: url('https://familyindustrieslive.com/wp-content/uploads/2023/03/mini-case-1-thumb@2x-1.png');
+          mask-image: url('https://tailwind-task-website.vercel.app/resources/Rectangle-curve.svg'); mask-repeat: no-repeat;">
+         </div>
+         <div class=" w-64 h-64 bg-cover bg-center" style="background-image: url('https://familyindustrieslive.com/wp-content/uploads/2023/03/mini-case-1-thumb@2x-1.png');
+         mask-image: url('https://tailwind-task-website.vercel.app/resources/Rectangle-curve.svg'); mask-repeat: no-repeat;">
+        </div>
+        <div class=" w-64 h-64 bg-cover bg-center" style="background-image: url('https://familyindustrieslive.com/wp-content/uploads/2023/03/mini-case-1-thumb@2x-1.png');
+        mask-image: url('https://tailwind-task-website.vercel.app/resources/Rectangle-curve.svg'); mask-repeat: no-repeat;">
+       </div>
+       
+
+
+            
+
+          
+        
+           
+        
+    </div>
+</div>
+
+
+
+<div class="section5 lg:pt-[100px] ml-[20px] md:pt-[20px] w-100%">
+<div class="experience flex items-center ">
+<h3 class="heading lg:text-[120px] leading-[80%] font-[900] tracking-[0.2em] text-[31px]">
+  <span>THE</span>
+  <br>
+  EXPERIENCE
+</h3>
+
+
+</div>
+
+</div>
+
+
+
+<div class="section6 pt-[100px]  ">
+<div class="tiltmain flex gap-[60px]  justify-center items-center justify-evenly flex-col   md:justify-evenly lg:flex-row ">
+
+<div class="tiltone relative">
+  <img src="https://familyindustrieslive.com/wp-content/uploads/2023/06/the-experience-1-thumb@2x-2.png" class="w-[260px] transform -rotate-[-5deg]" alt="">
+  <div class="persn  flex justify-center items-center absolute transform -rotate-[-5deg] text-[46px] font-[700] top-[90%] right-[2%] "> PERSONNAL</div>
+ 
+
+</div>
+<div class="tilttwo relative">
+  <img src="https://familyindustrieslive.com/wp-content/uploads/2023/06/the-experience-1-thumb@2x-2.png" class="w-[260px] transform -rotate-[5deg]" alt="">
+  <div class="persn flex justify-center items-center  absolute transform -rotate-[5deg] text-[46px] font-[700] top-[90%] right-[-10%] "> PERSONNAL</div>
+
+  
+</div>
+<div class="tiltthree relative">
+  
+  <img src="https://familyindustrieslive.com/wp-content/uploads/2023/06/the-experience-1-thumb@2x-2.png"class="w-[260px] transform -rotate-[-5deg]" alt="">
+  <div class=" flex justify-center items-center persn persn  absolute transform -rotate-[-5deg] text-[46px] font-[700] top-[90%] right-[2%]"> PERSONNAL</div>
+
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
 
   
 
@@ -116,7 +306,7 @@
 
 
 
-    </div>
+    
   
 </body>
 </html>
